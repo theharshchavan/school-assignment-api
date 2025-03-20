@@ -1,4 +1,4 @@
-# 🏫 School Locator API
+# 🏫 School API
 
 A simple Node.js and Express-based API project that allows users to add schools with their coordinates and fetch a list of schools sorted by proximity to the user’s location.
 
@@ -38,6 +38,14 @@ A simple Node.js and Express-based API project that allows users to add schools 
 ### ✅ Home Route  
 - **Method:** GET  
 - **URL:** `http://localhost:8080`  
+- **Description:** Basic health check route.
+- **Response:**
+```json
+"Home Route"
+
+### ✅ Add School Route 
+- **Method:** POST  
+- **URL:** `http://localhost:8080/api/v1/addschool`  
 - **Description:** Basic health check route.
 - **Response:**
 ```json
